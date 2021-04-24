@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Times</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="nav_header_cadastro_times">
+        <iframe src="header.html" width="100%" height="100%" frameborder="0"></iframe>
+    </header>
+
+    <main>
+        <section id="#cadastro_time" class="container_banner_cadastro_times">
+            <h1 class="titulo_cadastro_times">Cadastro de Times</h1>
+        </section>
+
+        <section class="container_principal_times">
+            <div class="cadastro_box_times">
+                <div class="box_conteudo_cadastrar_times">
+                    <form class="dados_cadastro_times" action="">
+                        <span class="dados_pergunta_times">Nome da equipe</span>
+                        <input class="dados_times" type="text">
+                        <span class="dados_pergunta_times">Emblema</span>
+                        <div class="file_times">
+                            <input class="dados_times2" src="css/imagens/sk-logo 1.png" id="file" type="file">
+                            <label for="file">Escolher Imagem</label>
+                        </div>
+                        <a href="index.html#inicio" target="_parent">
+                            <input class="button_cadastrar_times" type="button"
+                                onclick="alert('Obrigado pela inscrição')" value="Cadastrar"></input>
+                        </a>
+
+                    </form>
+                </div>
+            </div>
+
+            <h2 class="titulo_times_tabela">Lista de Times</h2>
+            <table class="tabela_jogadores">
+                <tr class="barra">
+                    <th class="conteudo_tabela">Nome da Equipe</th>
+                    <th class="conteudo_tabela2">Emblema</th>
+                </tr>
+                <tr>
+                    <td class="conteudo_tabela">HighTechs</td>
+                    <td class="conteudo_tabela2"><img class="imagem_time" src="css/imagens/sk-logo 1.png" alt="logo">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="conteudo_tabela">ThunderTechs</td>
+                    <td class="conteudo_tabela2"><img class="imagem_time" src="css/imagens/fla-logo 1.png" alt="logo">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="conteudo_tabela">Senai Cytechs</td>
+                    <td class="conteudo_tabela2"><img class="imagem_time" src="css/imagens/sk-logo 1.png" alt="logo">
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+    </main>
+
+    <footer class="footer_nav_iframe">
+        <div class="list_one">
+            <span class="titulo_list">Links Úteis</span>
+            <ul class="list">
+                <li>Regras de utilização</li>
+                <li>Suporte</li>
+                <li>Central de ajuda</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+        <div class="list_two">
+            <span class="titulo_list">Páginas</span>
+            <ul class="list">
+                <a class="list_conteudo" href="index.html#inicio">
+                    <li>Início</li>
+                </a>
+                <a class="list_conteudo" href="index.html#campeonatos">
+                    <li>Campeonatos</li>
+                </a>
+                <a class="list_conteudo" href="index.html#resultados">
+                    <!--Não tem a página-->
+                    <li>Resultados</li>
+                </a>
+                <a class="list_conteudo" href="index.html#noticias">
+                    <li>Notícias</li>
+                </a>
+                <li>Login/Cadastro</li>
+            </ul>
+        </div>
+        <a href="#">
+            <img class="footer_logo" src="css/imagens/logo.svg" alt="logo">
+        </a>
+        <div class="box_footer">
+            <span class="assine">Faça parte do nosso clã, assine nossa newsletter!</span>
+            <div class="escrever">
+                <div>
+                    <input class="email" type="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <input class="cadastrar" type="button" onclick="alert('Cadastro Concluído')" value="Cadastrar">
+                </div>
+            </div>
+            <div class="siga">
+                <span>Siga-nos em:</span>
+                <img src="css/imagens/instagram 1.png" alt="instagram logo">
+                <img src="css/imagens/facebook 1.png" alt="facebook logo">
+                <img src="css/imagens/youtube 1.png" alt="youtube logo">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
