@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="nav_header_cadastro">
+        <iframe src="header.html" width="100%" height="100%" frameborder="0"></iframe>
+    </header>
+
+    <main>
+        <section id="cadastro_jogador" class="container_banner_cadastro">
+            <h1 class="titulo_cadastro">Cadastro de Jogador</h1>
+        </section>
+
+        <section class="container_principal">
+            <div class="cadastro_box">
+                <div class="box_conteudo_cadastrar">
+                    <form class="dados_cadastro" action="">
+                        <span class="dados_pergunta">Nome do Jogador</span>
+                        <input class="dados" type="text">
+                        <span class="dados_pergunta">E-mail</span>
+                        <input class="dados" type="email">
+                        <span class="dados_pergunta">Senha</span>
+                        <input class="dados_password" type="password">
+                        <span class="dados_pergunta2">Equipe</span>
+                        <select class="select_equipe" name="equipe" id="equipe">
+                            <option value="cytechs">Cytechs</option>
+                            <option value="hightechs">HighTechs</option>
+                            <option value="thundertechs">ThunderTechs</option>
+                        </select>
+
+                        <a href="cadastro_times.html#cadastro_time" target="_parent">
+                            <input class="button_cadastrar" type="button" value="Cadastrar"></input>
+                        </a>
+
+                    </form>
+                </div>
+            </div>
+
+            <h2 class="titulo_jogadores_tabela">Lista de Jogadores</h2>
+            <table class="tabela_jogadores">
+                <tr class="barra">
+                    <th class="conteudo_tabela">Nome do Jogador</th>
+                    <th class="conteudo_tabela2">Equipe</th>
+                </tr>
+                <tr>
+                    <td class="conteudo_tabela">Samuel</td>
+                    <td class="conteudo_tabela2">HighTechs</td>
+                </tr>
+                <tr>
+                    <td class="conteudo_tabela">Thiago</td>
+                    <td class="conteudo_tabela2">ThunderTechs</td>
+                </tr>
+                <tr>
+                    <td class="conteudo_tabela">Ordilei</td>
+                    <td class="conteudo_tabela2">Senai Cytechs</td>
+                </tr>
+            </table>
+
+        </section>
+    </main>
+
+    <footer class="footer_nav_iframe">
+        <div class="list_one">
+            <span class="titulo_list">Links Úteis</span>
+            <ul class="list">
+                <li>Regras de utilização</li>
+                <li>Suporte</li>
+                <li>Central de ajuda</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+        <div class="list_two">
+            <span class="titulo_list">Páginas</span>
+            <ul class="list">
+                <a class="list_conteudo" href="index.html#inicio">
+                    <li>Início</li>
+                </a>
+                <a class="list_conteudo" href="index.html#campeonatos">
+                    <li>Campeonatos</li>
+                </a>
+                <a class="list_conteudo" href="index.html#resultados">
+                    <!--Não tem a página-->
+                    <li>Resultados</li>
+                </a>
+                <a class="list_conteudo" href="index.html#noticias">
+                    <li>Notícias</li>
+                </a>
+                <li>Login/Cadastro</li>
+            </ul>
+        </div>
+        <a href="#">
+            <img class="footer_logo" src="css/imagens/logo.svg" alt="logo">
+        </a>
+        <div class="box_footer">
+            <span class="assine">Faça parte do nosso clã, assine nossa newsletter!</span>
+            <div class="escrever">
+                <div>
+                    <input class="email" type="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <input class="cadastrar" type="button" onclick="alert('Cadastro Concluído')" value="Cadastrar">
+                </div>
+            </div>
+            <div class="siga">
+                <span>Siga-nos em:</span>
+                <img src="css/imagens/instagram 1.png" alt="instagram logo">
+                <img src="css/imagens/facebook 1.png" alt="facebook logo">
+                <img src="css/imagens/youtube 1.png" alt="youtube logo">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
