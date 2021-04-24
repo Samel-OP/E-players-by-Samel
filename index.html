@@ -10,29 +10,22 @@
 </head>
 
 <body>
-    <header>
-        <div class="container_header">
-            <a href="#">
-                <img class="logo" src="css/imagens/logo.svg" alt="logo">
-            </a>
-            <nav class="nav_header">
-                <a href="#">Início</a>
-                <a href="#">Horários</a>
-                <a href="#">Campeonato</a>
-                <a href="#">Resultados</a>
-                <a href="#">Notícias</a>
-            </nav>
-        </div>
+
+    <header class="nav_header_iframe">
+        <iframe src="header.html" width="100%" height="100%" frameborder="0"></iframe>
     </header>
+
     <main>
-        <section class="container_banner">
-            <img class="fundo_banner" src="css/imagens/maitre-yi.png" alt="banner">
-            <div class="box_conteudo_banner">
-                <h1>Liga E-Players</h1>
-                <span>O maior portal de campeonatos online</span>
-                <a href="#" class="btn_cadastro">
-                    <span>inscreva-se</span>
-                </a>
+        <section id="inicio" class="container_banner">
+            <img class="fundo_banner" src="css/imagens/maitre-yi.png" alt="personagem lol">
+            <div class="banner_principal">
+                <div class="box_conteudo_banner">
+                    <h1 class="titulo_principal">Liga E-Players</h1>
+                    <span>O maior portal de campeonatos online</span>
+                    <a href="cadastro_jogador.html#cadastro_jogador" target="_parent" class="btn_cadastro">
+                        <span>inscreva-se</span>
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -46,32 +39,38 @@
             </div>
         </section>
 
-        <section class="container_participar">
+        <section id="campeonatos" class="container_participar">
             <div class="box_conteudo_participar">
-                <h2>Como participar das ligas?</h2>
+                <h2 class="titulo_participar">Como participar das ligas?</h2>
                 <p class="text_participar">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus. Sem nulla pharetra
-                    diam sit amet. Eu turpis egestas pretium aenean pharetra magna. Elementum curabitur vitae nunc sed
-                    velit dignissim. Sed blandit libero volutpat sed cras ornare arcu. Vitae semper quis lectus nulla at
-                    volutpat diam ut. Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Etiam sit
-                    amet nisl purus in mollis nunc. Pharetra convallis posuere morbi leo urna. Lacus vestibulum sed arcu
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus. Sem nulla
+                    pharetra
+                    diam sit amet. Eu turpis egestas pretium aenean pharetra magna. Elementum curabitur vitae nunc
+                    sed
+                    velit dignissim. Sed blandit libero volutpat sed cras ornare arcu. Vitae semper quis lectus
+                    nulla at
+                    volutpat diam ut. Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Etiam
+                    sit
+                    amet nisl purus in mollis nunc. Pharetra convallis posuere morbi leo urna. Lacus vestibulum sed
+                    arcu
                     non odio euismod lacinia.
                 </p>
             </div>
-            <img class="fundo_ahri" src="/css/imagens/arhi.png" alt="ahri lol">
+            <img class="fundo_ahri" src="css/imagens/arhi.png" alt="ahri lol">
         </section>
 
-        <section class="container_campeonato">
+        <section id="noticias" class="container_campeonato">
 
             <div class="box_campeonato">
                 <span class="titulo_campeonato">Ao vivo</span>
 
                 <div class="box_um">
                     <span class="text_campeonato">Sk</span>
-                    <img src="/css/imagens/sk-logo 1.png" alt="time">
+                    <img src="css/imagens/sk-logo 1.png" alt="time">
                     <span class="text_campeonato_vs">Vs</span>
-                    <img src="/css/imagens/fla-logo 1.png" alt="time">
+                    <img src="css/imagens/fla-logo 1.png" alt="time">
                     <span class="text_campeonato">Sk</span>
                 </div>
 
@@ -80,28 +79,28 @@
                 <span class="titulo_campeonato">Em breve</span>
                 <div class="box_dois">
                     <span class="text_campeonato">Sk</span>
-                    <img src="/css/imagens/sk-logo 1.png" alt="time">
+                    <img src="css/imagens/sk-logo 1.png" alt="time">
                     <span class="text_campeonato_vs">Vs</span>
-                    <img src="/css/imagens/fla-logo 1.png" alt="time">
+                    <img src="css/imagens/fla-logo 1.png" alt="time">
                     <span class="text_campeonato">Sk</span>
                 </div>
                 <div class="box_tres">
                     <span class="text_campeonato">Sk</span>
-                    <img src="/css/imagens/sk-logo 1.png" alt="time">
+                    <img src="css/imagens/sk-logo 1.png" alt="time">
                     <span class="text_campeonato_vs">Vs</span>
-                    <img src="/css/imagens/fla-logo 1.png" alt="time">
+                    <img src="css/imagens/fla-logo 1.png" alt="time">
                     <span class="text_campeonato">Sk</span>
                 </div>
             </div>
         </section>
 
-        <section class="container_noticia">
+        <section id="horarios" class="container_noticia">
             <h3>Notícias</h3>
-            <span class="proximos_jogos">Próximos jogos</span>
+            <h4 class="proximos_jogos">Próximos jogos</h4>
             <div class="container_noticia_two">
                 <div class="box_noticia">
                     <article class="box_noticia_conteudo">
-                        <img class="player" src="/css/imagens/player.png" alt="player">
+                        <img class="player" src="css/imagens/player.png" alt="player">
                         <span class="titulo_noticia">Título da notícia</span>
                         <p class="text_noticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
@@ -110,7 +109,7 @@
                 </div>
                 <div class="box_noticia">
                     <article class="box_noticia_conteudo">
-                        <img class="player" src="/css/imagens/player.png" alt="player">
+                        <img class="player" src="css/imagens/player.png" alt="player">
                         <span class="titulo_noticia">Título da notícia</span>
                         <p class="text_noticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
@@ -119,7 +118,7 @@
                 </div>
                 <div class="box_noticia">
                     <article class="box_noticia_conteudo">
-                        <img class="player" src="/css/imagens/player.png" alt="player">
+                        <img class="player" src="css/imagens/player.png" alt="player">
                         <span class="titulo_noticia">Título da notícia</span>
                         <p class="text_noticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
@@ -128,7 +127,7 @@
                 </div>
                 <div class="box_noticia">
                     <article class="box_noticia_conteudo">
-                        <img class="player" src="/css/imagens/player.png" alt="player">
+                        <img class="player" src="css/imagens/player.png" alt="player">
                         <span class="titulo_noticia">Título da notícia</span>
                         <p class="text_noticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
@@ -137,7 +136,7 @@
                 </div>
                 <div class="box_noticia">
                     <article class="box_noticia_conteudo">
-                        <img class="player" src="/css/imagens/player.png" alt="player">
+                        <img class="player" src="css/imagens/player.png" alt="player">
                         <span class="titulo_noticia">Título da notícia</span>
                         <p class="text_noticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
@@ -146,7 +145,7 @@
                 </div>
                 <div class="box_noticia">
                     <article class="box_noticia_conteudo">
-                        <img class="player" src="/css/imagens/player.png" alt="player">
+                        <img class="player" src="css/imagens/player.png" alt="player">
                         <span class="titulo_noticia">Título da notícia</span>
                         <p class="text_noticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
@@ -158,9 +157,9 @@
                     <div class="box_horarios">
                         <div class="box_horarios_conteudo">
                             <span class="text_campeonato">Sk</span>
-                            <img src="/css/imagens/sk-logo 1.png" alt="time">
+                            <img src="css/imagens/sk-logo 1.png" alt="time">
                             <span class="text_campeonato_vs">Vs</span>
-                            <img src="/css/imagens/fla-logo 1.png" alt="time">
+                            <img src="css/imagens/fla-logo 1.png" alt="time">
                             <span class="text_campeonato">Sk</span>
                         </div>
                         <div>
@@ -170,9 +169,9 @@
 
                         <div class="box_horarios_conteudo">
                             <span class="text_campeonato">Sk</span>
-                            <img src="/css/imagens/sk-logo 1.png" alt="time">
+                            <img src="css/imagens/sk-logo 1.png" alt="time">
                             <span class="text_campeonato_vs">Vs</span>
-                            <img src="/css/imagens/fla-logo 1.png" alt="time">
+                            <img src="css/imagens/fla-logo 1.png" alt="time">
                             <span class="text_campeonato">Sk</span>
                         </div>
                         <div>
@@ -182,9 +181,9 @@
 
                         <div class="box_horarios_conteudo">
                             <span class="text_campeonato">Sk</span>
-                            <img src="/css/imagens/sk-logo 1.png" alt="time">
+                            <img src="css/imagens/sk-logo 1.png" alt="time">
                             <span class="text_campeonato_vs">Vs</span>
-                            <img src="/css/imagens/fla-logo 1.png" alt="time">
+                            <img src="css/imagens/fla-logo 1.png" alt="time">
                             <span class="text_campeonato">Sk</span>
                         </div>
                         <div>
@@ -194,9 +193,9 @@
 
                         <div class="box_horarios_conteudo">
                             <span class="text_campeonato">Sk</span>
-                            <img src="/css/imagens/sk-logo 1.png" alt="time">
+                            <img src="css/imagens/sk-logo 1.png" alt="time">
                             <span class="text_campeonato_vs">Vs</span>
-                            <img src="/css/imagens/fla-logo 1.png" alt="time">
+                            <img src="css/imagens/fla-logo 1.png" alt="time">
                             <span class="text_campeonato">Sk</span>
                         </div>
                         <div>
@@ -206,9 +205,9 @@
 
                         <div class="box_horarios_conteudo">
                             <span class="text_campeonato">Sk</span>
-                            <img src="/css/imagens/sk-logo 1.png" alt="time">
+                            <img src="css/imagens/sk-logo 1.png" alt="time">
                             <span class="text_campeonato_vs">Vs</span>
-                            <img src="/css/imagens/fla-logo 1.png" alt="time">
+                            <img src="css/imagens/fla-logo 1.png" alt="time">
                             <span class="text_campeonato">Sk</span>
                         </div>
                         <div>
@@ -218,9 +217,9 @@
 
                         <div class="box_horarios_conteudo">
                             <span class="text_campeonato">Sk</span>
-                            <img src="/css/imagens/sk-logo 1.png" alt="time">
+                            <img src="css/imagens/sk-logo 1.png" alt="time">
                             <span class="text_campeonato_vs">Vs</span>
-                            <img src="/css/imagens/fla-logo 1.png" alt="time">
+                            <img src="css/imagens/fla-logo 1.png" alt="time">
                             <span class="text_campeonato">Sk</span>
                         </div>
                         <div>
@@ -234,7 +233,8 @@
         </div>
         </section>
     </main>
-    <footer>
+
+    <footer class="footer_nav_iframe">
         <div class="list_one">
             <span class="titulo_list">Links Úteis</span>
             <ul class="list">
@@ -247,34 +247,45 @@
         <div class="list_two">
             <span class="titulo_list">Páginas</span>
             <ul class="list">
-                <li>Início</li>
-                <li>Campeonatos</li>
-                <li>Resultados</li>
-                <li>Notícias</li>
-                <li>Login/Cadastro</li>
+                <a class="list_conteudo" href="index.html#inicio">
+                    <li>Início</li>
+                </a>
+                <a class="list_conteudo" href="index.html#campeonatos">
+                    <li>Campeonatos</li>
+                </a>
+                <a class="list_conteudo" href="index.html#resultados"> <!--Não tem a página-->
+                    <li>Resultados</li>
+                </a>
+                <a class="list_conteudo" href="index.html#noticias">
+                    <li>Notícias</li>
+                </a>
+                <a class="list_conteudo" href="cadastro_jogador.html#cadastro_jogador">
+                    <li>Login/Cadastro</li>
+                </a>
             </ul>
         </div>
         <a href="#">
-            <img class="footer_logo" src="/css/imagens/logo.svg" alt="logo">
+            <img class="footer_logo" src="css/imagens/logo.svg" alt="logo">
         </a>
         <div class="box_footer">
             <span class="assine">Faça parte do nosso clã, assine nossa newsletter!</span>
             <div class="escrever">
-                <div class="email">
-                    <span>E-mail</span>
+                <div>
+                    <input class="email" type="email" placeholder="E-mail">
                 </div>
-                <div class="cadastrar">
-                    <span>Cadastrar</span>
+                <div>
+                    <input class="cadastrar" type="button" onclick="alert('Cadastro Concluído')" value="Cadastrar">
                 </div>
             </div>
             <div class="siga">
-                <span>Siga-nos em:</span>
-                <img src="/css/imagens/instagram 1.png" alt="instagram logo">
-                <img src="/css/imagens/facebook 1.png" alt="facebook logo">
-                <img src="/css/imagens/youtube 1.png" alt="youtube logo">
+                <span>Siga-nos em:</span>               
+                <img src="css/imagens/instagram 1.png" alt="instagram logo">
+                <img src="css/imagens/facebook 1.png" alt="facebook logo">
+                <img src="css/imagens/youtube 1.png" alt="youtube logo">
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
